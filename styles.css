@@ -1,14 +1,13 @@
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffc107;
+    background-color: #333;
     padding: 20px 0;
 }
 
@@ -26,52 +25,33 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffa500;
     font-weight: bold;
 }
 
 .hero {
     text-align: center;
     padding: 50px 0;
-    background-color: #ffe082;
+    background-color: #1e1e1e;
 }
 
-.services, .pricing, .achievements, .calculator, .faq, .payment, .contacts {
-    padding: 50px;
-    text-align: center;
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
 }
 
-.services .service-box, .pricing table, .achievements ul, .calculator, .faq, .payment, .contacts {
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-.services .service-box {
-    background-color: #fff3cd;
+.service-box {
+    background-color: #333;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-.pricing table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-.pricing table th, .pricing table td {
-    padding: 15px;
-    border: 1px solid #ddd;
-}
-
-.pricing table th {
-    background-color: #ffc107;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #ffc107;
-    color: #fff;
+    background-color: #333;
+    color: #ffa500;
 }
