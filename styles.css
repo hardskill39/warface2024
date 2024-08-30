@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -35,18 +36,37 @@ header nav ul li a {
     background-color: #ffe082;
 }
 
-.services {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
+.services, .pricing, .achievements, .calculator, .faq, .payment, .contacts {
+    padding: 50px;
+    text-align: center;
 }
 
-.service-box {
+.services .service-box, .pricing table, .achievements ul, .calculator, .faq, .payment, .contacts {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.services .service-box {
     background-color: #fff3cd;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.pricing table th, .pricing table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.pricing table th {
+    background-color: #ffc107;
 }
 
 footer {
